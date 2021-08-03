@@ -19,7 +19,7 @@ function ShowAllPizzas(){
     Menu_array.sort;
     var html_data="<section class='pizza'>"
     for(var j=0;j<Menu_array.length;j++){
-        html_data=html_data+"<br>"+"<div class='pizzas'><img src='images/pizzaImg.png'>"+Menu_array[j]+"</div>";
+        html_data=html_data+"<br>"+"<div class='pizzas'><img src='pizzaImg.png'>"+Menu_array[j]+"</div>";
     }
     html_data=html_data+"</section>";
     document.getElementById("display_addedmenu").innerHTML=html_data;
